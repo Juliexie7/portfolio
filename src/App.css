@@ -1,0 +1,149 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+}
+
+#overview{
+  min-height: 95vh;
+}
+
+#overview, #about, #projects {  
+  padding-top: 6rem;
+}
+
+#contact {
+  min-height: 40rem;
+  /* max-width: 60rem; */
+  padding-top: 6rem;
+  font-size: 1.5rem;
+}
+
+#overview h1 {
+  font-size: 5rem;
+}
+
+#overview div{
+  padding: 2rem;
+  margin:0 auto;
+}
+
+#overview h2, #about h2, #projects h2, #contact h2 {
+  font-size: 3rem;
+  color: rgb(252, 103, 54)
+}
+
+#overview p, #about p {
+  max-width: 60rem;
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+#overview h3{
+  color: #9c9c9c;
+  font-size: 2.5rem;
+}
+
+#header {
+  width: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 999;
+}
+
+#header{
+  background-color: rgb(239, 236, 236);
+}
+
+#project span{
+  color: rgb(252, 103, 54);
+  margin-right: 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#cardProj {
+  width: 100%;
+  background-color: rgb(236, 233, 228);
+}
+
+#cardBody {
+  padding-left: 2rem;
+  padding-right:2rem;
+}
+
+#cardBody a{
+  text-decoration: none;
+  color: black;
+}
+
+#cardBody a:hover{
+  color: rgb(252, 103, 54);
+}
+
+#contactBn:hover {
+  background-color:rgb(252, 103, 54);
+  color: rgb(255, 255, 255);
+}
+
+#contactBn {
+  border: 1px solid;
+  border-color: rgb(252, 103, 54);
+  border-radius: 5px;
+  color: rgb(252, 103, 54);
+  width: 10rem;
+  margin:0 auto;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 2px 6px 2px 6px;
+}
+
+@media only screen and (min-width: 1025px){
+  #project img{
+    width: 30rem; 
+    margin: 5rem 0;
+  }
+  #overview div{
+    padding: 8rem 2rem;
+  }
+}
+
+@media only screen and (min-height: 1000px) and (min-width: 1201px){
+  #project img{
+    width: 50rem; 
+    margin: 5rem 0;
+  }
+  #overview div{
+    padding: 16rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  #cartoon {
+    display: none;
+  }  
+  #project img{
+    width: 25rem; 
+    margin: 2rem 0;
+  }
+  #project {
+    flex-direction: column;
+  }
+  #overview div{
+    padding: 8rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #overview div{
+    padding:2rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 12px;
+    }
+}
+
+
