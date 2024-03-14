@@ -3,14 +3,13 @@ import '../App.css'
 
 const Overview = () => {
   return (
-    <div>
+    <div id="overviewbg">
       <Container id="overview" >
-        <div>
+        <div id="overviewdv">
           <h3>Welcome to my portfolio!</h3>
-          <h3>My name is</h3>
+          <h4>My name is</h4>
           <h1>Wenjun Xie</h1>
-          <h2>I dedicate myself to crafting digital solutions.</h2>
-          <p>I'm a Full-Stack Developer. I have experience working with various technologies including HTML, CSS, Java, Spring Boot, C#, JavaScript, React, PHP, Laravel, Python, MySql, AWS, Azure.</p>
+          <h2>Dedicate to crafting digital solutions.</h2>
         </div>
       </Container>
     </div>

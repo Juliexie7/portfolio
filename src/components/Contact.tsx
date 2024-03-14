@@ -3,7 +3,7 @@ import '../App.css'
 
 const Contact = () => {
   return (
-    <div>
+    <div id="contactbg">
     <Container id="contact">
       <h2>Get in touch</h2>
       <p>I'm currently seeking opportunities in back-end development, full-stack development, and data engineering. If you have any relevant openings, please don't hesitate to reach out to me.</p>

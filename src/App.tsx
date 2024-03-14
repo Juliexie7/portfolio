@@ -4,6 +4,7 @@ import Overview from './components/Overview'
 import About from './components/About'
 import ProjectList from './components/ProjectList'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <About />
       <ProjectList />
       <Contact />
+      <Footer />
     </>
   )
 }
