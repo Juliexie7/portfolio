@@ -22,10 +22,13 @@ const About = () => {
             <br />
             <h2>About Me</h2>
             <p>
-            Hi, I'm Wenjun Xie. If you've noticed, the logo of this website is the initials of my last name. 
+            Hi, I'm Wenjun Xie. I'm passionate about software development. 
             </p>
             <p>
-            I'm passionate about software development. In May 2023, I embarked on a journey into full-stack development. I've honed my skills and learned various front-end and back-end technologies. On the Projects page, you'll find a showcase of the projects I've developed during this learning experience.
+            I have prior experience in the financial technology industry, specializing in database development, enterprise data warehousing, and testing.
+            </p>
+            <p>
+            In May 2023, I started my journey into full-stack development at John Abbott College. I've honed my skills and learned various front-end and back-end technologies. Thank you for taking the time to explore the projects on next page, all of which I've developed along the way.
             </p>
             <p>
             As a strong team player, I thrive in collaborative environments. I also pride myself on paying attention to detail. I firmly believe that my skills and dedication will bring value to your company or project.

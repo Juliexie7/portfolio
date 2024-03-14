@@ -2,9 +2,10 @@ import Stack from 'react-bootstrap/Stack';
 import Container from 'react-bootstrap/Container';
 import '../App.css'
 import Techs from './Techs';
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 interface Props {
-  myProject: {title: string, img: string, desc: string, tech: string[], link: string, myPart: string},
+  myProject: {title: string, img: string, desc: string, tech: string[], github: string, link: string, myPart: string},
 }
 
 const Project = ({ myProject }: Props) => {
@@ -27,9 +28,11 @@ const Project = ({ myProject }: Props) => {
         <Container>
           <Stack direction="horizontal" id="project">
             <div id="images">
-              <a href={myProject.link} target="_blank">
-                <img src={myProject.img} alt={myProject.title} />
-              </a>
+              <img src={myProject.img} alt={myProject.title} />
+              <div id="links">
+                <a href={myProject.github} target="_blank"><FaGithub size="4rem"/></a>
+                <a href={myProject.link} target="_blank"><FaExternalLinkAlt size="4rem"/></a>
+              </div>              
             </div>
             <div id="cardBody">
               <div id="a"><h2 >{myProject.title}</h2></div>
