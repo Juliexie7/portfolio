@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Klibrary from "../assets/Klibrary1.jpg";
 import theMet from "../assets/theMET.jpg";
 import CHotel from "../assets/CHotel1.jpg";
+import WPF from "../assets/WPF1.jpg";
 
 const ProjectList = () => {
   let myProjects: { title: string, img: string, desc: string, tech: string[], github: string, link: string, myPart: string }[] = [
@@ -26,7 +27,14 @@ const ProjectList = () => {
         , "tech": ["PHP", "Laravel", "Bootstrap", "JavaScript", "MySql", "Azure"]
         , "github": "https://github.com/Juliexie7/phpProjHotel"
         , "link": "https://cozyhavenhotel.azurewebsites.net"
-        , "myPart":""}
+        , "myPart":""},
+    { "title": "WPF: Some Windows Applications"
+    , "img": WPF
+    , "desc": "Practice related to WPF(Windows Presentation Foundation) involving Entity Framework and various WPF controls such as ListView, Slider, DatePicker, ComboBox, and more."
+    , "tech": ["C#", "SQL Server"]
+    , "github": "https://github.com/Juliexie7/WPF"
+    , "link": ""
+    , "myPart":""}
 ];
 
   // const projects = ["CHotel", "Klibrary", "museam"];
@@ -39,6 +47,7 @@ const ProjectList = () => {
         <h2>What I Have Built</h2>
         <p>Below are the projects I developed during the Full Stack Learning course. </p>
         <p>I've showcased only the components I <b>developed independently</b>. The one where my work relied heavily on collaboration with others, I've provided a brief summary of my contribution.</p>
+        <p>Please be aware of <b>potential high latency</b> when accessing websites hosted on Azure. Due to the use of a free account, the application server is unloaded after 20 minutes without any incoming requests, resulting in warm-up time for new requests.</p>
       </Container>
       {renderedProjects}  
     </>

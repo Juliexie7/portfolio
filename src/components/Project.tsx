@@ -22,6 +22,15 @@ const Project = ({ myProject }: Props) => {
     return <Techs myTech={mytech} fontSize="1rem"></Techs>
   });
 
+  let gitLink, siteLink;
+  if (myProject.github !=="") {
+    gitLink = <a href={myProject.github} target="_blank"><FaGithub size="4rem"/></a>;
+  }
+
+  if (myProject.link !=="") {
+    siteLink = <a href={myProject.link} target="_blank" ><FaExternalLinkAlt size="4rem"/></a>;
+  }  
+
   return (
     <>
       <div id="projectbg">
@@ -30,8 +39,8 @@ const Project = ({ myProject }: Props) => {
             <div id="images">
               <img src={myProject.img} alt={myProject.title} />
               <div id="links">
-                <a href={myProject.github} target="_blank"><FaGithub size="4rem"/></a>
-                <a href={myProject.link} target="_blank"><FaExternalLinkAlt size="4rem"/></a>
+                {gitLink}
+                {siteLink}
               </div>              
             </div>
             <div id="cardBody">
