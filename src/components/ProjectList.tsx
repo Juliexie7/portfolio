@@ -9,21 +9,21 @@ const ProjectList = () => {
   let myProjects: { title: string, img: string, desc: string, tech: string[], github: string, link: string, myPart: string }[] = [
     { "title": "Java: Knowledge Library"
         , "img": Klibrary
-        , "desc": `Manage books with CRUD operations and authority management for distinct user roles. \n Try with users: Susan (USER), John(EMPLOYEE), Mary(MANAGER), password: ab`
+        , "desc": `The library system is built on Spring Boot, Thymeleaf and Bootstrap, catering to three types of user roles: USER, EMPLOYEE and MANAGER. Each role has different CRUD operation permissions. \n Try with users: Susan (USER), John(EMPLOYEE), Mary(MANAGER), password: ab` //Manage books with CRUD operations and authority management for distinct user roles.
         , "tech": ["Java", "Spring Boot", "Thymeleaf", "MySql", "JavaScript", "Azure"]
         , "github": "https://github.com/Juliexie7/program3"
         , "link": "https://knowledgelibrary.azurewebsites.net"
         , "myPart":""},  //"": developing, testing, and deploying the entire website.
     { "title": "React: The Metropolitan Museum of Art"
         , "img": theMet
-        , "desc": "Showcase Metropolitan Museum artworks. Enable user comments."
+        , "desc": "Showcases Metropolitan Museum artworks, leveraging React, TypeScript, and ChakraUI for the frontend. Utilizes an external API to retrieve artworks information. Node.js is utilized for the backend to enable user comments."
         , "tech": ["TypeScript", "React", "Node.js", "Chakra", "MySql"]
         , "github": "https://github.com/Juliexie7/MetMuseum"
         , "link": "https://met-museum-kv74.vercel.app/"
         , "myPart":"My contribution: Details page, Color Mode"},
     { "title": "PHP: Cozy Haven Hotel"
         , "img": CHotel
-        , "desc": "Show hotel information, room details, local weather, and enable reservations."
+        , "desc": "Built on the Laravel framework, with webpages dynamically generated from content stored in the database. Features real-time weather updates corresponding to the hotel's location. The reservation system automatically checks the availability of rooms."
         , "tech": ["PHP", "Laravel", "Bootstrap", "JavaScript", "MySql", "Azure"]
         , "github": "https://github.com/Juliexie7/phpProjHotel"
         , "link": "https://cozyhavenhotel.azurewebsites.net"
